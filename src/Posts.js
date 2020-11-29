@@ -139,18 +139,18 @@ useEffect(() => {
 
             <div className="posts-left">
                 <Link to="/">
-                <a href="#" className="dashboardKey"> <DashboardIcon className="left-Icon"/> Dashboard</a>
+                <a href="address.html" className="dashboardKey"> <DashboardIcon className="left-Icon"/> Dashboard</a>
                 </Link>
                
-                <a href="#" className="dashboardKey"> <SchoolIcon className="left-Icon"/> Lorem</a>
-                <a href="#" className="dashboardKey"> <SettingsIcon className="left-Icon"/> Ipsum</a>
-                <a href="#" className="dashboardKey"> <PostAddIcon className="left-Icon"/> Posts</a>
+                <a href="address.html" className="dashboardKey"> <SchoolIcon className="left-Icon"/> Lorem</a>
+                <a href="address.html" className="dashboardKey"> <SettingsIcon className="left-Icon"/> Ipsum</a>
+                <a href="address.html" className="dashboardKey"> <PostAddIcon className="left-Icon"/> Posts</a>
                 {user ? (
                    <a href="#" className="dashboardKey" onClick={() =>auth.signOut()}>SignOut</a>
                 ): (
                     <div className="login_container">
-                        <a href="#" className="dashboardKey" onClick={() => setOpen(true)}>SignUp</a>
-                        <a href="#" className="dashboardKey" onClick={() => setOpenSignIn(true)}>Login</a>
+                        <a href="address.html" className="dashboardKey" onClick={() => setOpen(true)}>SignUp</a>
+                        <a href="address.html" className="dashboardKey" onClick={() => setOpenSignIn(true)}>Login</a>
                     </div>
 
                     
