@@ -28,7 +28,7 @@ function AddPost({username}) {
         <div className="addPost">
             <textarea placeholder="Share something with your class" value={caption} onChange={event => setCaption(event.target.value)}/>
                      <div className="buttonArea">
-                         <a>Cancel</a>
+                         <a href="#">Cancel</a>
                          <div className="attachFiles">
                               <AttachmentIcon className="attachIcon"/>
                               <Button className="shareIcon" onClick={handleUpload}>
