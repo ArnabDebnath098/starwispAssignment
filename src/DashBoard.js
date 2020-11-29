@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import "./DashBoard.css";
 import DashboardIcon from '@material-ui/icons/Dashboard';
 import SchoolIcon from '@material-ui/icons/School';
@@ -51,12 +51,7 @@ function TabPanel(props) {
     };
   }
   
-  const useStyles = makeStyles((theme) => ({
-    root: {
-      flexGrow: 1,
-      backgroundColor: theme.palette.background.paper,
-    },
-  }));
+  
   
 function DashBoard() {
     const [value, setValue] = React.useState(0);
