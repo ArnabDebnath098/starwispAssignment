@@ -1,0 +1,47 @@
+.addPost {
+  background-color: white;
+  border-radius: 10px;
+  width: 78%;
+  margin: 28px auto;
+  height: 166px;
+}
+.addPost > textarea {
+  margin: 10px;
+  width: 95.5%;
+  height: 80px;
+  background-color: #e2e2e2;
+  border: none;
+  outline-width: 0;
+  border-radius: 10px;
+  font-family: "Open Sans", sans-serif;
+  padding: 10px;
+}
+.buttonArea {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+.attachFiles {
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  width: 200px;
+}
+.attachIcon {
+  background-color: #ffc480;
+  color: #ff6c40;
+  padding: 5px;
+  border-radius: 22px;
+}
+.shareIcon {
+  background-color: tomato !important;
+  width: 100px !important;
+  font-size: 12px !important;
+  color: white !important;
+  font-family: "Open Sans", sans-serif !important;
+}
+.buttonArea > a {
+  color: #ef3e36;
+  font-family: "Open Sans", sans-serif;
+}

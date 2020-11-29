@@ -1,0 +1,359 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lato:wght@300&family=Open+Sans:wght@300&display=swap");
+
+.dashBoard {
+  display: flex;
+  background-color: #f2f2f2;
+}
+.dashBoard-left {
+  background-color: #ff6c40;
+  flex: 0.15;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.dashBoard-left > a {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: white !important;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 36px;
+  cursor: pointer;
+  text-decoration: none !important;
+}
+.dashBoard-left > a:hover {
+  background: #ffc480;
+}
+.left-Icon {
+  color: white !important;
+  margin-right: 14px;
+}
+.main-body {
+  flex: 0.85;
+  padding: 0 20px;
+}
+.chartsTab {
+  display: flex;
+}
+.chartsTab-left {
+  flex: 0.7;
+}
+.chartsTab-right {
+  flex: 0.3;
+  background-color: #f2f2f2;
+  height: 450px;
+}
+.searchBox {
+  background-color: #e2e2e2;
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+  border-radius: 10px;
+  width: 59%;
+}
+.searchBox > input {
+  outline-width: 0;
+  border: none;
+  background-color: #e2e2e2 !important;
+  height: 28px;
+  width: 100%;
+}
+.searchicon {
+  color: #9d9d9d;
+  margin: 5px 10px;
+  cursor: pointer;
+}
+
+.salesReport {
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  height: 300px;
+  flex: 0.85;
+}
+.salesReport-graph {
+  flex: 0.88;
+}
+.salesReport-graph > h4 {
+  font-family: "Open Sans", sans-serif;
+  color: #593636;
+  font-size: 21px;
+  font-weight: 600;
+  margin: 10px 26px;
+}
+.salesReport-graph > h4 > span {
+  color: #9d9d9d;
+  font-weight: 400;
+  font-size: 21px;
+}
+.salesReport-orange {
+  flex: 0.12;
+  background-color: #ff6c40;
+  height: 100%;
+  padding: 10px;
+}
+.salesReport-orange > h4 {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-size: 21px;
+  margin: 20px 0;
+}
+.yellow {
+  background-color: #ffe700;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 9px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.yellow > h5 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.yellow > p {
+  font-weight: 400;
+  font-size: 15px;
+}
+.green {
+  background-color: #1ffd77;
+  padding: 10px;
+  border-radius: 9px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-family: "Open Sans", sans-serif;
+}
+.green > h5 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.green > p {
+  font-weight: 400;
+  font-size: 15px;
+}
+.main-body-notepad {
+  display: flex;
+  justify-content: space-between;
+}
+
+.middle {
+  flex: 0.35;
+}
+.last {
+  flex: 0.3;
+}
+.middleGraph {
+  background-color: white;
+  border-radius: 10px;
+  margin: 20px 15px 0 0;
+  box-shadow: -4px 4px 10px #2f00ff79;
+}
+.inbox {
+  background-color: white;
+  border-radius: 10px;
+  margin: 20px 15px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 24px;
+  box-shadow: -4px 4px 10px #2f00ff79;
+}
+.inbox > p {
+  font-family: "Open Sans", sans-serif;
+  color: #929292;
+  font-size: 17px;
+  font-weight: 300;
+}
+.inbox > h4 {
+  font-family: "Open Sans", sans-serif;
+  color: #593636;
+  font-size: 21px;
+  font-weight: 600;
+}
+.thisMonth {
+  background-color: white;
+  border-radius: 10px;
+  margin: 20px 0;
+  box-shadow: -4px 4px 10px #2f00ff79;
+}
+.thisMonth > p {
+  font-family: "Comfortaa", cursive;
+  font-weight: 300;
+  font-size: 12px;
+  padding: 10px;
+  color: #000000;
+  text-align: center;
+  margin: 0 !important;
+}
+.lastMonth {
+  background-color: white;
+  border-radius: 10px;
+  margin: 20px 0;
+  box-shadow: -4px 4px 10px #2f00ff73;
+}
+.lastMonth > p {
+  font-family: "Comfortaa", cursive;
+  font-weight: 300;
+  font-size: 12px;
+  color: #000000;
+  text-align: center;
+  padding: 10px;
+  margin: 0 !important;
+}
+hr {
+  margin: 0 5px !important;
+}
+.tabs {
+  margin-left: 20px !important;
+  background-color: white !important;
+  border-radius: 15px !important;
+  height: 400px !important;
+  overflow: hidden !important;
+}
+.nav-item {
+  width: 50% !important;
+}
+.nav-tabs > a {
+  background-color: #e2e2e2 !important;
+  color: #929292;
+}
+.nav-tabs > a:hover {
+  color: #929292;
+}
+.nav-link {
+  background-color: #e2e2e2 !important;
+  border: none !important;
+}
+.nav-link.active {
+  background-color: white !important;
+  border-color: none !important;
+}
+.tab-Content {
+  background-color: #e2e2e2;
+  border-radius: 10px;
+  margin: 10px;
+  overflow: hidden;
+  height: 324px;
+}
+.tab-Contentbutton {
+  position: relative;
+  top: -35px;
+  left: 41%;
+  color: #929292;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  /* align-items: center; */
+  border-radius: 10px 10px 0 0;
+  background-color: #e2e2e2;
+}
+.chartjs-render-monitor {
+  width: 95% !important;
+  height: 220px !important;
+
+  margin-left: 20px;
+}
+.middleGraph {
+  overflow: hidden;
+  height: 120px;
+}
+.middleGraph > canvas {
+  height: 117px !important;
+  width: 94% !important;
+  padding: 5px !important;
+  margin: 0 !important;
+}
+.thisMonthinfo {
+  display: flex;
+  padding: 10px;
+}
+.thisMonthinfo > h4 {
+  color: #0f26f2;
+}
+.lastMonthinfo > h4 {
+  color: #0f26f2;
+}
+.thisMonthinfo > canvas {
+  height: 40px !important;
+  width: 60% !important;
+}
+.lastMonthinfo {
+  display: flex;
+  padding: 10px;
+}
+.lastMonthinfo > canvas {
+  height: 40px !important;
+  width: 60% !important;
+}
+
+.MuiAppBar-colorPrimary {
+  background-color: #e2e2e2 !important;
+  box-shadow: none !important;
+}
+.MuiTab-wrapper {
+  color: #494949;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif !important;
+}
+.MuiTab-root {
+  text-transform: none !important;
+}
+.MuiTab-textColorInherit.Mui-selected {
+  opacity: 1;
+  background-color: white !important;
+}
+.PrivateTabIndicator-colorSecondary-3 {
+  background-color: #f5005600 !important;
+}
+
+.MuiBox-root {
+  padding: 5px !important;
+}
+
+/* modal */
+
+.fadeContent {
+  background-color: white;
+  width: 50%;
+  height: 60%;
+  margin: 0 auto;
+}
+.fadeContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fadeContent > p {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 20px 0 10px 0;
+}
+.fadeContent > input {
+  border: 2px solid gray;
+  border-radius: 20px;
+  font-size: 20px;
+  width: 77%;
+  margin-bottom: 15px;
+  outline-width: 0;
+}
+.fadeContent > textarea {
+  border: 2px solid gray;
+  border-radius: 20px;
+  font-size: 20px;
+  width: 77%;
+  margin-bottom: 15px;
+  outline-width: 0;
+  padding: 5px;
+  height: 165px;
+  text-align: center;
+}

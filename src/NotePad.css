@@ -1,0 +1,56 @@
+.notepadNote {
+  margin: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.noteNote > p > span {
+  color: black;
+  font-size: 13px;
+  font-weight: 600;
+  margin: 10px;
+  line-height: 17px;
+}
+.noteNote {
+  height: 173px;
+  overflow: hidden;
+}
+.noteNote > p {
+  font-family: "Open Sans", sans-serif;
+  color: #929292;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 25px !important;
+}
+.notePad > h4 {
+  font-family: "Open Sans", sans-serif;
+  color: #593636;
+  font-size: 21px;
+  font-weight: 300;
+  margin: 20px;
+}
+.notePad {
+  background-color: white;
+  border-radius: 10px;
+  flex: 0.35;
+  margin: 20px 15px 0 0;
+  overflow-y: hidd;
+  height: 250px;
+  box-shadow: -4px 4px 10px #2f00ff79;
+}
+.noteButton {
+  background-color: cadetblue;
+  width: 100px;
+  font-size: 20px;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  color: white;
+  outline-width: 0;
+}
+.addNote {
+  color: #ff6c40;
+  font-size: 40px !important;
+  position: relative;
+  top: 137px !important;
+  left: 0 !important;
+}

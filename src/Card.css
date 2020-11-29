@@ -1,0 +1,53 @@
+.card {
+  background-color: white;
+  border-radius: 10px;
+  width: 78%;
+  margin: 28px auto;
+  height: 166px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.comment {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e2e2e2;
+  padding: 10px;
+}
+.comment > input {
+  flex: 1;
+}
+.content > img {
+  height: 44px;
+  width: 33px;
+  border-radius: 8px;
+  flex: 0.05;
+}
+.content {
+  padding: 10px;
+  display: flex;
+  flex: 1;
+}
+.postContent {
+  flex: 0.95;
+  padding: 0 10px;
+}
+.time {
+  display: flex;
+  justify-content: space-between;
+}
+.comment > img {
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+}
+.comment > input {
+  outline-width: 0;
+  border: none;
+  background-color: #e2e2e2;
+  margin: 0 20px;
+}
+.text {
+  font-family: "Open Sans", sans-serif;
+}
