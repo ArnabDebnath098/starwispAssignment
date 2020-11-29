@@ -1,9 +1,9 @@
-import React,{useState, useEffect} from 'react';
+import React,{useState} from 'react';
 import "./AddPost.css";
 import Button from '@material-ui/core/Button';
 import AttachmentIcon from '@material-ui/icons/Attachment';
 import firebase from "firebase";
-import {db, storage} from './firebase';
+import {db} from './firebase';
 
 function AddPost({username}) {
     const [caption, setCaption] =useState('');
