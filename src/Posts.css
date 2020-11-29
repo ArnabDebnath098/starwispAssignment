@@ -125,3 +125,13 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #ff6363;
 }
+.dashboardKey {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+}
