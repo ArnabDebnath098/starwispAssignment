@@ -135,3 +135,10 @@
   font-weight: bold;
   font-size: 20px;
 }
+.login_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-top: 50px;
+}
