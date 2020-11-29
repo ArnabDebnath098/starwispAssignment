@@ -67,13 +67,13 @@ function DashBoard() {
 
             <div className="dashBoard-left">
                 <Link to="/">
-                   <a> <DashboardIcon className="left-Icon"/> Dashboard</a>
+                   <a href="#" className="dashboardKey"> <DashboardIcon className="left-Icon"/> Dashboard</a>
                 </Link>
                 
-                <a> <SchoolIcon className="left-Icon"/> Lorem</a>
-                <a> <SettingsIcon className="left-Icon"/> Ipsum</a>
+                <a href="#" className="dashboardKey"> <SchoolIcon className="left-Icon"/> Lorem</a>
+                <a href="#" className="dashboardKey"> <SettingsIcon className="left-Icon"/> Ipsum</a>
                 <Link to="/posts">
-                    <a> <PostAddIcon className="left-Icon"/> Posts</a>
+                    <a href="#" className="dashboardKey"> <PostAddIcon className="left-Icon"/> Posts</a>
                 </Link>
                
             </div>
