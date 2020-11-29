@@ -13,6 +13,7 @@ import AddPost from './AddPost';
 import {Link} from "react-router-dom"; 
 import LockOpenIcon from '@material-ui/icons/LockOpen';
 import ExitToAppIcon from '@material-ui/icons/ExitToApp';
+import LockIcon from '@material-ui/icons/Lock';
 // modal function 
 
 function getModalStyle() {
@@ -148,7 +149,7 @@ useEffect(() => {
                 <a href="address.html" className="dashboardKey"> <SettingsIcon className="left-Icon"/> Ipsum</a>
                 <a href="address.html" className="dashboardKey"> <PostAddIcon className="left-Icon"/> Posts</a>
                 {user ? (
-                   <a href="address.html" className="dashboardKey" onClick={() =>auth.signOut()}>SignOut</a>
+                   <LockIcon onClick={() =>auth.signOut()} className="left-Icon "/>
                 ): (
                     <div className="login_container">
                         <LockOpenIcon onClick={() => setOpen(true)} className="left-Icon" />
