@@ -6,7 +6,7 @@ function Card({username, caption, time}) {
     return (
         <div className="card">
             <div className="content">
-                        <img src="https://th.bing.com/th/id/OIP.UgHBBSzt3MUloEOH_yP4qQHaJ4?w=147&h=195&c=7&o=5&pid=1.7 "/>
+                        <img src="https://th.bing.com/th/id/OIP.UgHBBSzt3MUloEOH_yP4qQHaJ4?w=147&h=195&c=7&o=5&pid=1.7 " alt="profile"/>
                         <div className="postContent">
                            <div className="time">
                             <h4>{username}</h4>
@@ -20,7 +20,7 @@ function Card({username, caption, time}) {
                         
                     </div>
                     <div className="comment">
-                        <img src="https://th.bing.com/th/id/OIP.UgHBBSzt3MUloEOH_yP4qQHaJ4?w=147&h=195&c=7&o=5&pid=1.7"/>
+                        <img src="https://th.bing.com/th/id/OIP.UgHBBSzt3MUloEOH_yP4qQHaJ4?w=147&h=195&c=7&o=5&pid=1.7" alt="profile"/>
                         <input type="text" placeholder="Write a comment"/>
                          <SendIcon/>
                     </div>
