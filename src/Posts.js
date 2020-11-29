@@ -149,8 +149,8 @@ useEffect(() => {
                    <a href="address.html" className="dashboardKey" onClick={() =>auth.signOut()}>SignOut</a>
                 ): (
                     <div className="login_container">
-                        <a href="address.html" className="dashboardKey" onClick={() => setOpen(true)}>SignUp</a>
-                        <a href="address.html" className="dashboardKey" onClick={() => setOpenSignIn(true)}>Login</a>
+                        <a href="address1.html" className="dashboardKey" onClick={() => setOpen(true)}>SignUp</a>
+                        <a href="address2.html" className="dashboardKey" onClick={() => setOpenSignIn(true)}>Login</a>
                     </div>
 
                     
