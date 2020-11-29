@@ -40,7 +40,7 @@ function NotePad() {
                                    })}
                             </div>
                            
-                           <a href="#"  onClick={handleOpen}><AddCircleIcon className="addNote"/></a>
+                           <a href="address.html"  onClick={handleOpen}><AddCircleIcon className="addNote"/></a>
                         </div>
                        
                     
