@@ -146,7 +146,7 @@ useEffect(() => {
                 <a href="address.html" className="dashboardKey"> <SettingsIcon className="left-Icon"/> Ipsum</a>
                 <a href="address.html" className="dashboardKey"> <PostAddIcon className="left-Icon"/> Posts</a>
                 {user ? (
-                   <a href="#" className="dashboardKey" onClick={() =>auth.signOut()}>SignOut</a>
+                   <a href="address.html" className="dashboardKey" onClick={() =>auth.signOut()}>SignOut</a>
                 ): (
                     <div className="login_container">
                         <a href="address.html" className="dashboardKey" onClick={() => setOpen(true)}>SignUp</a>
